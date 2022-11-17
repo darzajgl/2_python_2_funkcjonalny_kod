@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "2_task0",
+      "setup": "",
+      "run": "python3 -m unittest test_task0.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "2_task1",
+      "setup": "",
+      "run": "python3 -m unittest test_task1.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "2_task2",
+      "setup": "",
+      "run": "python3 -m unittest test_task2.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "2_task3",
+      "setup": "",
+      "run": "python3 -m unittest test_task3.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "2_task4",
+      "setup": "",
+      "run": "python3 -m unittest test_task4.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "2_task5",
+      "setup": "",
+      "run": "python3 -m unittest test_task5.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 12
+    },
+    {
+      "name": "2_task6",
+      "setup": "",
+      "run": "python3 -m unittest test_task6.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    },
+    {
+      "name": "2_task7",
+      "setup": "",
+      "run": "python3 -m unittest test_task7.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    },
+    {
+      "name": "2_task8",
+      "setup": "",
+      "run": "python3 -m unittest test_task8.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 13
+    }
+  ]
+}
