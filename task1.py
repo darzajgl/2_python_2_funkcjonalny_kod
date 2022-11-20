@@ -2,8 +2,9 @@
 # przyjomowała dwa argumenty i zwracała ich sumę.
 
 
-def simple_adder():
-    pass
+def simple_adder(x: int, y: int) -> None:
+    outcome = x + y
+    return outcome
 
 
 # Uzupełnij deklarację funkcji `simple_subtractor` tak,
@@ -11,8 +12,9 @@ def simple_adder():
 # i zwracała ich różnicę. Niech `x` będzie odjemną.
 
 
-def simple_subtractor():
-    pass
+def simple_subtractor(x: int, y: int) -> None:
+    outcome = x - y
+    return outcome
 
 
 # Uzupełnij deklarację funkcji `simple_calculator` tak,
@@ -30,5 +32,17 @@ def simple_subtractor():
 # simple_calculator(2, 1, operation='-') == 1
 
 
-def simple_calculator():
-    pass
+def simple_calculator(x: int, y: int, operation: str = '+') -> None:
+    if operation == '+':
+        return x + y
+    if operation == '-':
+        return x - y
+    if operation == '*':
+        return x * y
+    if operation == '**':
+        return x ** y
+    if operation == '|':
+        return x | y
+    if operation == '&':
+        return x & y
+
