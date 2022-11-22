@@ -12,5 +12,5 @@
 # list_updater(1, 2, 3, collection=[5]) == [5, 1, 2, 3]
 
 
-def list_updater():
+def list_updater(*args:int, **kwargs):
     pass
